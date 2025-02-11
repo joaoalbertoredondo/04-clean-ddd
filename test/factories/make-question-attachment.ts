@@ -12,6 +12,7 @@ export function makeQuestionAttachment(
     {
       questionId: new UniqueEntityId(),
       attachmentId: new UniqueEntityId(),
+      ...override,
     },
     id,
   )
