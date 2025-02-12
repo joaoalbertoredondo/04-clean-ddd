@@ -1,7 +1,7 @@
 import dayjs from 'dayjs'
 
 import { Slug } from './value-objects/slug'
-import { UniqueEntityId } from '@/core/entities/unique-entity-is'
+import { UniqueEntityId } from '@/core/entities/unique-entity-id'
 import { Optional } from '@/core/types/optional'
 import { AggregateRoot } from '@/core/entities/aggregate-root'
 import { QuestionAttachmentList } from './question-attachment-list'
