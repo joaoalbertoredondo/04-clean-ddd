@@ -18,7 +18,6 @@ describe('Send Notification Use Case', () => {
     })
 
     expect(result.isRight()).toBe(true)
-    console.log(inMemoryNotificationsRepository.items[0])
     expect(inMemoryNotificationsRepository.items[0]).toEqual(
       result.value?.notification,
     )
