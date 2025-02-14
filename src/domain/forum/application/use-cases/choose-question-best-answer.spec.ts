@@ -5,8 +5,8 @@ import { makeQuestion } from 'test/factories/make-question'
 import { makeAnswer } from 'test/factories/make-answer'
 import { UniqueEntityId } from '@/core/entities/unique-entity-id'
 import { NotAllowedError } from '../../../../core/errors/not-allowed-error'
-import { InMemoryAnswerAttachmentsRepository } from 'test/repositories/in-memory-answer-attchments-repository'
-import { InMemoryQuestionAttachmentsRepository } from 'test/repositories/in-memory-question-attchments-repository'
+import { InMemoryAnswerAttachmentsRepository } from 'test/repositories/in-memory-answer-attachments-repository'
+import { InMemoryQuestionAttachmentsRepository } from 'test/repositories/in-memory-question-attachments-repository'
 
 let inMemoryAnswerAttachmentsRepository: InMemoryAnswerAttachmentsRepository
 let inMemoryQuestionAttachmentsRepository: InMemoryQuestionAttachmentsRepository

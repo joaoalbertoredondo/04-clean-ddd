@@ -1,7 +1,7 @@
 import { InMemoryQuestionsRepository } from 'test/repositories/in-memory-questions-repository'
 import { FetchRecentQuestionsUseCase } from './fetch-recent-questions'
 import { makeQuestion } from 'test/factories/make-question'
-import { InMemoryQuestionAttachmentsRepository } from 'test/repositories/in-memory-question-attchments-repository'
+import { InMemoryQuestionAttachmentsRepository } from 'test/repositories/in-memory-question-attachments-repository'
 
 let inMemoryQuestionAttachmentRepository: InMemoryQuestionAttachmentsRepository
 let inMemoryQuestionsRepository: InMemoryQuestionsRepository
